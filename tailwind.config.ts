@@ -23,9 +23,9 @@ const config: Config = {
         },
       },
       spacing: {
-        box: "1180px",
-        boxTablet: "600px",
-        boxPhone: "400px",
+        box: "1280px",
+        boxTablet: "700px",
+        boxPhone: "500px",
       },
     }
   },
