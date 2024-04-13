@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Jost } from "next/font/google";
 import "./globals.css";
+import { cn } from "@/lib/utils";
+import Navbar from "@/components/pages/additional/navbar/Navbar";
 
 const jost = Jost({ subsets: ["latin"] });
 
@@ -15,8 +17,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={jost.className}>{children}</body>
+    <html
+      className={cn("bg-primary text-secondary flex flex-col", jost.className)}
+      lang="en"
+    >
+      <body>
+        <Navbar />
+        <div className="mx-auto">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
