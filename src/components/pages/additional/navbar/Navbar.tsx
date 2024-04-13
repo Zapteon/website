@@ -18,7 +18,7 @@ const Navigation = () => {
       <div className="mx-10 hidden xl:flex">
         {
           navLinks.map((name: string) => (
-            <Link key={name} href={name} className="text-lg mx-10 hover:text-secondary-dark transition-colors duration-300 ease-in-out">{name}</Link>
+            <Link key={name} href={name.toLowerCase()} className="text-lg mx-10 hover:text-secondary-dark transition-colors duration-300 ease-in-out">{name}</Link>
           ))
         }
       </div>
