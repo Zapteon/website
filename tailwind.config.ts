@@ -21,7 +21,7 @@ const config = {
       colors: {
         primary: {
           DEFAULT: "#141516",
-          dark: "#151515",
+          dark: "#0a0a0a",
         },
         secondary: {
           DEFAULT: "#ffffff",
@@ -33,9 +33,9 @@ const config = {
         },
       },
       spacing: {
-        box: "1280px",
-        boxTablet: "700px",
-        boxPhone: "500px",
+        box: "1180px",
+        boxTablet: "600px",
+        boxPhone: "400px",
       },
       keyframes: {
         "accordion-down": {
