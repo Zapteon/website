@@ -17,6 +17,7 @@ const config = {
         "2xl": "1400px",
       },
     },
+
     extend: {
       colors: {
         primary: {
@@ -32,11 +33,13 @@ const config = {
           dark: "#02AE74",
         },
       },
+
       spacing: {
-        box: "1180px",
+        box: "1280px",
         boxTablet: "800px",
         boxPhone: "500px",
       },
+
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
