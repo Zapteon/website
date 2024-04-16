@@ -1,7 +1,7 @@
 import React from 'react'
-import SplineHero from './SplineHero';
-import SplineBlob from './SplineBlobs';
 import HeroButton from './HeroButton';
+import SplineHero from './SplineHero';
+import SplineBlobs from './SplineBlobs';
 
 const Interactions = () => {
   return (
@@ -24,7 +24,7 @@ export default function Hero() {
     <div className="flex items-center justify-center xl:justify-end max-w-screen overflow-hidden h-[880px] max-w-full">
       <Interactions />
       <SplineHero />
-      <SplineBlob />
+      <SplineBlobs />
     </div>
   );
 }

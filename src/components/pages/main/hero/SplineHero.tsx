@@ -26,7 +26,7 @@ export default function Hero() {
 
   return (
     <div style={{ display: displayStyle }}>
-      <Spline scene="https://draft.spline.design/kyaCdirl0VCeX6eU/scene.splinecode" style={{ marginRight: '40px', width: '700px', height: '880px' }} />
+      <Spline scene="https://draft.spline.design/m5S1I0r6imbEd0ys/scene.splinecode" style={{ marginRight: '40px', width: '700px', height: '880px' }} />
     </div>
   );
 }
