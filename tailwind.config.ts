@@ -37,7 +37,7 @@ const config = {
       spacing: {
         box: "1280px",
         boxTablet: "800px",
-        boxPhone: "500px",
+        boxPhone: "450px",
       },
 
       keyframes: {
