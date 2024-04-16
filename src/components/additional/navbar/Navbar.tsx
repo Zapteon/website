@@ -47,7 +47,7 @@ const AuthSection = () => {
 export default function Navbar() {
   return (
     <div className="flex justify-center w-screen py-10">
-      <div className="w-boxPhone sm:w-boxTablet xl:w-box font-bold flex items-center justify-between">
+      <div className="w-boxPhone md:w-boxTablet xl:w-box font-bold flex items-center justify-between">
         <Navigation />
         <MobileNavigation />
         <AuthSection />
